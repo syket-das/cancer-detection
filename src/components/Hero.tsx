@@ -76,7 +76,7 @@ export const Hero = () => {
               <p className="text-2xl font-bold mr-8">Guide</p>
               <div className="">
                 <p className="text-2xl">Dr. Prateek Aggarwal</p>
-                <p className="text-lg">Professor & Assistant Dean</p>
+                <p className="text-lg">Professor & Associate Dean</p>
               </div>
             </div>
           </div>
