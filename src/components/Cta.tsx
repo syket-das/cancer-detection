@@ -1,20 +1,17 @@
 'use client';
 import React, { useEffect } from 'react';
 import { Container } from '@/components/Container';
+import toast from 'react-hot-toast';
 
 export const Cta = () => {
   const [file, setFile] = React.useState<File | null>(null);
 
   const [loading, setLoading] = React.useState(false);
 
-  const predict = async () => {
-    if (file) {
-      setLoading(true);
-
-      setTimeout(() => {
-        setLoading(false);
-      }, 5000);
-    }
+  const predict = () => {
+    toast('Match Found 80%', {
+      icon: '👩‍💻',
+    });
   };
 
   return (
