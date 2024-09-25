@@ -8,6 +8,7 @@ import { Faq } from '@/components/Faq';
 import { Cta } from '@/components/Cta';
 
 import { benefitOne, benefitTwo } from '@/components/data';
+import StepForm from '@/components/StepForm';
 export default function Home() {
   return (
     <Container>
@@ -55,7 +56,11 @@ export default function Home() {
       </SectionTitle>
 
       <Faq />
-      <Cta />
+      {/* <Cta /> */}
+
+      <div className="bg-neutral-800 rounded my-8">
+        <StepForm />
+      </div>
     </Container>
   );
 }
